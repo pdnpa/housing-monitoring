@@ -2,7 +2,7 @@
 
 Python script to parse CSV file data (via json) into a sqlite database. Automatically generates the table schemas based on pre set filenames, headers, and data types.
 
-## Data
+## data
 
 completions.csv parsed into json data as follows
 
