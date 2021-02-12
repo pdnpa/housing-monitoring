@@ -137,9 +137,9 @@ gross = pd.pivot_table(table_gross, values = 'Quantity', index = 'Occupancy_Type
 # print the data for checking
 print(gross)
 
-#### Output to html as an example ####
-with open("Output.html", 'w') as _file:
-    _file.write(net.to_html() + "\n\n" + gross.to_html())
+#### Output to csv as an example ####
+with open("Output.csv", 'w') as _file:
+    _file.write(net.to_csv() + "\n\n" + gross.to_csv())
 
 
 
