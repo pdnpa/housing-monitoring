@@ -6,6 +6,7 @@ Python script to parse CSV file data (via json) into a sqlite database. Automati
 
 completions.csv parsed into json data as follows
 
+```
 "Application_Number": "16251227 2184",
 "Parish": "Alstonefield",
 "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
@@ -16,14 +17,15 @@ completions.csv parsed into json data as follows
 "ISSUEDATE": "21/01/2008",
 "District": "SMDC",
 "Dwellings": "1"
+```
 
 ## sqlite schema
 
 ![schema](https://github.com/pdnpa/housing-monitoring/blob/main/schema.png)
 
-## sql JOIN table for analysis
+## sql JOIN table produced for analysis
 
-|**Application\_Number**|**FY**|**Quantity**|**Occupancy\_Type**|**Build\_Type**
+**Num**|**Application_Number**|**FY**|**Quantity**|**Occupancy_Type**|**Build_Type**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 0|16030428|1991/92|1|Ancillary|COU
 1|16440708|1991/92|1|Ancillary|COU
