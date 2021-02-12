@@ -28,7 +28,7 @@ completions.csv parsed into json data as follows
 **Num**|**Application_Number**|**FY**|**Quantity**|**Occupancy_Type**|**Build_Type**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 0|16030428|1991/92|1|Ancillary|COU
-1|16440708|1991/92|1|Ancillary|COU
-2|16180117|1991/92|1|Ancillary|COU
-3|16180116|1991/92|1|Ancillary|NEW
-4|16730127|1991/92|1|Holiday|COU
+1|16440708|1993/94|1|Local Need|New
+2|16180117|2019/20|5|Open Market|NEW
+3|16180116|1998/99|-1|Holiday|COU
+4|16730127|1991/92|1|Holiday|CON
