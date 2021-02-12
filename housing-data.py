@@ -141,8 +141,6 @@ print(gross)
 with open("Output.csv", 'w') as _file:
     _file.write(net.to_csv() + "\n\n" + gross.to_csv())
 
-
-
 print("Code has completed at " + str(datetime.now()))
 
 cur.close()
