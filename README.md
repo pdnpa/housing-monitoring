@@ -1,6 +1,6 @@
 # housing-monitoring
 
-Python script to parse CSV file data (via json) into a sqlite database. Automatically generates the table schemas based on pre set filenames, headers, and data types.
+Python script to parse CSV file data (via json) into a sqlite database. Table schemas names based on pre set filenames, headers, and data types.
 
 ## data
 
