@@ -2,6 +2,8 @@
 #### Housing Database pdnpa ####
 ################################
 
+## Run this scrip in the location of the completions .csv
+
 import sqlite3
 import csv
 import json
